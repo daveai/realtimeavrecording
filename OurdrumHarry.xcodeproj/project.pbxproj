@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330A51021BFBACB900BD5BB6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330A51011BFBACB900BD5BB6 /* WebViewController.m */; };
+		3318E9571BA58FE6001A91D0 /* VideoDetailsEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3318E9561BA58FE6001A91D0 /* VideoDetailsEntryViewController.m */; };
+		33778B151BBC6E0D00C42267 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33778B141BBC6E0D00C42267 /* TutorialViewController.m */; };
+		339758E01BBDE17A00F8D06F /* tut.mov in Resources */ = {isa = PBXBuildFile; fileRef = 339758DF1BBDE17A00F8D06F /* tut.mov */; };
+		33E772421BB341AB0041EA44 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E772411BB341AB0041EA44 /* MBProgressHUD.m */; };
+		33E8C3401B9CA4A300EC05EA /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E8C33F1B9CA4A300EC05EA /* CategoryTableViewCell.m */; };
+		33EC63BF1B9B7DBF0000FDB7 /* SelectCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EC63BE1B9B7DBF0000FDB7 /* SelectCategoryViewController.m */; };
+		33EED1CF1BA9FDC700ABD038 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EED1CE1BA9FDC700ABD038 /* SignUpViewController.m */; };
+		33EED1D31BAA0EC700ABD038 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EED1D21BAA0EC700ABD038 /* SettingsViewController.m */; };
+		3D26B7E41AD4388E00917E48 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26B7E31AD4388E00917E48 /* CameraViewController.m */; };
+		3D26B7E61AD438CF00917E48 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D26B7E51AD438CF00917E48 /* AVFoundation.framework */; };
+		3D8DD68A1AC5D10C00D76E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD6891AC5D10C00D76E06 /* main.m */; };
+		3D8DD68D1AC5D10C00D76E06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD68C1AC5D10C00D76E06 /* AppDelegate.m */; };
+		3D8DD6901AC5D10C00D76E06 /* OurdrumHarry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD68E1AC5D10C00D76E06 /* OurdrumHarry.xcdatamodeld */; };
+		3D8DD6961AC5D10C00D76E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DD6941AC5D10C00D76E06 /* Main.storyboard */; };
+		3D8DD6981AC5D10C00D76E06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DD6971AC5D10C00D76E06 /* Images.xcassets */; };
+		3D8DD69B1AC5D10C00D76E06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DD6991AC5D10C00D76E06 /* LaunchScreen.xib */; };
+		3D8DD6A71AC5D10C00D76E06 /* OurdrumHarryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD6A61AC5D10C00D76E06 /* OurdrumHarryTests.m */; };
+		3D8DD6B11AC5EDE600D76E06 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8DD6B01AC5EDE600D76E06 /* AssetsLibrary.framework */; };
+		66B940C3BB917AED06F18F23 /* libPods-OurdrumHarry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCBF0EA0F936ECDFB533439 /* libPods-OurdrumHarry.a */; };
+		8471E0271B9712E200B462B4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471E0261B9712E200B462B4 /* LoginViewController.m */; };
+		8471E02A1B971A5D00B462B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8471E0291B971A5D00B462B4 /* QuartzCore.framework */; };
+		8471E02D1B971A9A00B462B4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471E02C1B971A9A00B462B4 /* Constants.m */; };
+		8471E0321B97235800B462B4 /* RootNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471E0311B97235800B462B4 /* RootNavigationControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8DD6A11AC5D10C00D76E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8DD67C1AC5D10C00D76E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8DD6831AC5D10C00D76E06;
+			remoteInfo = OurdrumHarry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CCBF0EA0F936ECDFB533439 /* libPods-OurdrumHarry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OurdrumHarry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A51001BFBACB900BD5BB6 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		330A51011BFBACB900BD5BB6 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3318E9551BA58FE6001A91D0 /* VideoDetailsEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailsEntryViewController.h; sourceTree = "<group>"; };
+		3318E9561BA58FE6001A91D0 /* VideoDetailsEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailsEntryViewController.m; sourceTree = "<group>"; };
+		33778B131BBC6E0D00C42267 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		33778B141BBC6E0D00C42267 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		339758DF1BBDE17A00F8D06F /* tut.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tut.mov; sourceTree = "<group>"; };
+		33E772401BB341AB0041EA44 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		33E772411BB341AB0041EA44 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		33E8C33E1B9CA4A300EC05EA /* CategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewCell.h; sourceTree = "<group>"; };
+		33E8C33F1B9CA4A300EC05EA /* CategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewCell.m; sourceTree = "<group>"; };
+		33EC63BD1B9B7DBF0000FDB7 /* SelectCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCategoryViewController.h; sourceTree = "<group>"; };
+		33EC63BE1B9B7DBF0000FDB7 /* SelectCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCategoryViewController.m; sourceTree = "<group>"; };
+		33EED1CD1BA9FDC700ABD038 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		33EED1CE1BA9FDC700ABD038 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		33EED1D11BAA0EC700ABD038 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		33EED1D21BAA0EC700ABD038 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3D26B7E21AD4388E00917E48 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		3D26B7E31AD4388E00917E48 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		3D26B7E51AD438CF00917E48 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D8DD6841AC5D10C00D76E06 /* OurdrumHarry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurdrumHarry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8DD6881AC5D10C00D76E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8DD6891AC5D10C00D76E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D8DD68B1AC5D10C00D76E06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D8DD68C1AC5D10C00D76E06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D8DD68F1AC5D10C00D76E06 /* OurdrumHarry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OurdrumHarry.xcdatamodel; sourceTree = "<group>"; };
+		3D8DD6951AC5D10C00D76E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D8DD6971AC5D10C00D76E06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D8DD69A1AC5D10C00D76E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D8DD6A01AC5D10C00D76E06 /* OurdrumHarryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurdrumHarryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8DD6A51AC5D10C00D76E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8DD6A61AC5D10C00D76E06 /* OurdrumHarryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OurdrumHarryTests.m; sourceTree = "<group>"; };
+		3D8DD6B01AC5EDE600D76E06 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7DB1EBD8431DA333C8181FAE /* Pods-OurdrumHarry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurdrumHarry.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurdrumHarry/Pods-OurdrumHarry.release.xcconfig"; sourceTree = "<group>"; };
+		8471E0251B9712E200B462B4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8471E0261B9712E200B462B4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8471E0291B971A5D00B462B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8471E02B1B971A9A00B462B4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8471E02C1B971A9A00B462B4 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		8471E0301B97235800B462B4 /* RootNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationControllerViewController.h; sourceTree = "<group>"; };
+		8471E0311B97235800B462B4 /* RootNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationControllerViewController.m; sourceTree = "<group>"; };
+		E81F60696E811961E1E6BB0B /* Pods-OurdrumHarry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurdrumHarry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurdrumHarry/Pods-OurdrumHarry.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8DD6811AC5D10C00D76E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471E02A1B971A5D00B462B4 /* QuartzCore.framework in Frameworks */,
+				3D26B7E61AD438CF00917E48 /* AVFoundation.framework in Frameworks */,
+				3D8DD6B11AC5EDE600D76E06 /* AssetsLibrary.framework in Frameworks */,
+				66B940C3BB917AED06F18F23 /* libPods-OurdrumHarry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8DD69D1AC5D10C00D76E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330A51031BFBACBE00BD5BB6 /* Web View */ = {
+			isa = PBXGroup;
+			children = (
+				330A51001BFBACB900BD5BB6 /* WebViewController.h */,
+				330A51011BFBACB900BD5BB6 /* WebViewController.m */,
+			);
+			name = "Web View";
+			sourceTree = "<group>";
+		};
+		3318E9581BA58FF0001A91D0 /* Video details entry */ = {
+			isa = PBXGroup;
+			children = (
+				3318E9551BA58FE6001A91D0 /* VideoDetailsEntryViewController.h */,
+				3318E9561BA58FE6001A91D0 /* VideoDetailsEntryViewController.m */,
+			);
+			name = "Video details entry";
+			sourceTree = "<group>";
+		};
+		33778B161BBC6E1400C42267 /* Tutorial View */ = {
+			isa = PBXGroup;
+			children = (
+				33778B131BBC6E0D00C42267 /* TutorialViewController.h */,
+				33778B141BBC6E0D00C42267 /* TutorialViewController.m */,
+			);
+			name = "Tutorial View";
+			sourceTree = "<group>";
+		};
+		339758DE1BBDDD3500F8D06F /* Tutorial Video */ = {
+			isa = PBXGroup;
+			children = (
+				339758DF1BBDE17A00F8D06F /* tut.mov */,
+			);
+			name = "Tutorial Video";
+			sourceTree = "<group>";
+		};
+		33E772431BB341B00041EA44 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				33E772401BB341AB0041EA44 /* MBProgressHUD.h */,
+				33E772411BB341AB0041EA44 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		33EC63C01B9B7DC50000FDB7 /* Select Category View */ = {
+			isa = PBXGroup;
+			children = (
+				33EC63BD1B9B7DBF0000FDB7 /* SelectCategoryViewController.h */,
+				33EC63BE1B9B7DBF0000FDB7 /* SelectCategoryViewController.m */,
+				33E8C33E1B9CA4A300EC05EA /* CategoryTableViewCell.h */,
+				33E8C33F1B9CA4A300EC05EA /* CategoryTableViewCell.m */,
+			);
+			name = "Select Category View";
+			sourceTree = "<group>";
+		};
+		33EED1D01BA9FDCD00ABD038 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				33EED1CD1BA9FDC700ABD038 /* SignUpViewController.h */,
+				33EED1CE1BA9FDC700ABD038 /* SignUpViewController.m */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		33EED1D41BAA0ECB00ABD038 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				33EED1D11BAA0EC700ABD038 /* SettingsViewController.h */,
+				33EED1D21BAA0EC700ABD038 /* SettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		3D8DD67B1AC5D10C00D76E06 = {
+			isa = PBXGroup;
+			children = (
+				8471E0281B97196600B462B4 /* Frameworks */,
+				3D8DD6861AC5D10C00D76E06 /* OurdrumHarry */,
+				3D8DD6A31AC5D10C00D76E06 /* OurdrumHarryTests */,
+				3D8DD6851AC5D10C00D76E06 /* Products */,
+				460A5607747E2EC80140C3AC /* Pods */,
+				97C0CCAE106ED22BFFD33F87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8DD6851AC5D10C00D76E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6841AC5D10C00D76E06 /* OurdrumHarry.app */,
+				3D8DD6A01AC5D10C00D76E06 /* OurdrumHarryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8DD6861AC5D10C00D76E06 /* OurdrumHarry */ = {
+			isa = PBXGroup;
+			children = (
+				339758DE1BBDDD3500F8D06F /* Tutorial Video */,
+				33E772431BB341B00041EA44 /* MBProgressHUD */,
+				8471E02F1B97232200B462B4 /* Root Navigation Controller */,
+				8471E0241B9712A500B462B4 /* Login */,
+				8471E01E1B9710D300B462B4 /* App Delegates */,
+				8471E0201B97112700B462B4 /* Story Boards */,
+				8471E0211B97113A00B462B4 /* Resources */,
+				8471E0221B97114400B462B4 /* Launch Screen */,
+				8471E0231B97115B00B462B4 /* Dbs */,
+				3D8DD6871AC5D10C00D76E06 /* Supporting Files */,
+				8471E01F1B9710F400B462B4 /* Camera View */,
+				8471E02E1B971D1200B462B4 /* Constant */,
+				33EC63C01B9B7DC50000FDB7 /* Select Category View */,
+				3318E9581BA58FF0001A91D0 /* Video details entry */,
+				33EED1D01BA9FDCD00ABD038 /* Sign Up */,
+				33EED1D41BAA0ECB00ABD038 /* Settings */,
+				33778B161BBC6E1400C42267 /* Tutorial View */,
+				330A51031BFBACBE00BD5BB6 /* Web View */,
+			);
+			path = OurdrumHarry;
+			sourceTree = "<group>";
+		};
+		3D8DD6871AC5D10C00D76E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6881AC5D10C00D76E06 /* Info.plist */,
+				3D8DD6891AC5D10C00D76E06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D8DD6A31AC5D10C00D76E06 /* OurdrumHarryTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6A61AC5D10C00D76E06 /* OurdrumHarryTests.m */,
+				3D8DD6A41AC5D10C00D76E06 /* Supporting Files */,
+			);
+			path = OurdrumHarryTests;
+			sourceTree = "<group>";
+		};
+		3D8DD6A41AC5D10C00D76E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6A51AC5D10C00D76E06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		460A5607747E2EC80140C3AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E81F60696E811961E1E6BB0B /* Pods-OurdrumHarry.debug.xcconfig */,
+				7DB1EBD8431DA333C8181FAE /* Pods-OurdrumHarry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8471E01E1B9710D300B462B4 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD68C1AC5D10C00D76E06 /* AppDelegate.m */,
+				3D8DD68B1AC5D10C00D76E06 /* AppDelegate.h */,
+			);
+			name = "App Delegates";
+			sourceTree = "<group>";
+		};
+		8471E01F1B9710F400B462B4 /* Camera View */ = {
+			isa = PBXGroup;
+			children = (
+				3D26B7E21AD4388E00917E48 /* CameraViewController.h */,
+				3D26B7E31AD4388E00917E48 /* CameraViewController.m */,
+			);
+			name = "Camera View";
+			sourceTree = "<group>";
+		};
+		8471E0201B97112700B462B4 /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6941AC5D10C00D76E06 /* Main.storyboard */,
+			);
+			name = "Story Boards";
+			sourceTree = "<group>";
+		};
+		8471E0211B97113A00B462B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6971AC5D10C00D76E06 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8471E0221B97114400B462B4 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD6991AC5D10C00D76E06 /* LaunchScreen.xib */,
+			);
+			name = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		8471E0231B97115B00B462B4 /* Dbs */ = {
+			isa = PBXGroup;
+			children = (
+				3D8DD68E1AC5D10C00D76E06 /* OurdrumHarry.xcdatamodeld */,
+			);
+			name = Dbs;
+			sourceTree = "<group>";
+		};
+		8471E0241B9712A500B462B4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8471E0251B9712E200B462B4 /* LoginViewController.h */,
+				8471E0261B9712E200B462B4 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8471E0281B97196600B462B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8471E0291B971A5D00B462B4 /* QuartzCore.framework */,
+				3D8DD6B01AC5EDE600D76E06 /* AssetsLibrary.framework */,
+				3D26B7E51AD438CF00917E48 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8471E02E1B971D1200B462B4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8471E02B1B971A9A00B462B4 /* Constants.h */,
+				8471E02C1B971A9A00B462B4 /* Constants.m */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		8471E02F1B97232200B462B4 /* Root Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8471E0301B97235800B462B4 /* RootNavigationControllerViewController.h */,
+				8471E0311B97235800B462B4 /* RootNavigationControllerViewController.m */,
+			);
+			name = "Root Navigation Controller";
+			sourceTree = "<group>";
+		};
+		97C0CCAE106ED22BFFD33F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CCBF0EA0F936ECDFB533439 /* libPods-OurdrumHarry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8DD6831AC5D10C00D76E06 /* OurdrumHarry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8DD6AA1AC5D10C00D76E06 /* Build configuration list for PBXNativeTarget "OurdrumHarry" */;
+			buildPhases = (
+				04C65C4F8A0EE197EC3081BA /* Check Pods Manifest.lock */,
+				3D8DD6801AC5D10C00D76E06 /* Sources */,
+				3D8DD6811AC5D10C00D76E06 /* Frameworks */,
+				3D8DD6821AC5D10C00D76E06 /* Resources */,
+				A206F8D4D5409D5BB0D259F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OurdrumHarry;
+			productName = OurdrumHarry;
+			productReference = 3D8DD6841AC5D10C00D76E06 /* OurdrumHarry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8DD69F1AC5D10C00D76E06 /* OurdrumHarryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8DD6AD1AC5D10C00D76E06 /* Build configuration list for PBXNativeTarget "OurdrumHarryTests" */;
+			buildPhases = (
+				3D8DD69C1AC5D10C00D76E06 /* Sources */,
+				3D8DD69D1AC5D10C00D76E06 /* Frameworks */,
+				3D8DD69E1AC5D10C00D76E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8DD6A21AC5D10C00D76E06 /* PBXTargetDependency */,
+			);
+			name = OurdrumHarryTests;
+			productName = OurdrumHarryTests;
+			productReference = 3D8DD6A01AC5D10C00D76E06 /* OurdrumHarryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8DD67C1AC5D10C00D76E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Digicrazers;
+				TargetAttributes = {
+					3D8DD6831AC5D10C00D76E06 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6RR2P3M2MG;
+					};
+					3D8DD69F1AC5D10C00D76E06 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6RR2P3M2MG;
+						TestTargetID = 3D8DD6831AC5D10C00D76E06;
+					};
+				};
+			};
+			buildConfigurationList = 3D8DD67F1AC5D10C00D76E06 /* Build configuration list for PBXProject "OurdrumHarry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8DD67B1AC5D10C00D76E06;
+			productRefGroup = 3D8DD6851AC5D10C00D76E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8DD6831AC5D10C00D76E06 /* OurdrumHarry */,
+				3D8DD69F1AC5D10C00D76E06 /* OurdrumHarryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8DD6821AC5D10C00D76E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339758E01BBDE17A00F8D06F /* tut.mov in Resources */,
+				3D8DD6961AC5D10C00D76E06 /* Main.storyboard in Resources */,
+				3D8DD69B1AC5D10C00D76E06 /* LaunchScreen.xib in Resources */,
+				3D8DD6981AC5D10C00D76E06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8DD69E1AC5D10C00D76E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C65C4F8A0EE197EC3081BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A206F8D4D5409D5BB0D259F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurdrumHarry/Pods-OurdrumHarry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8DD6801AC5D10C00D76E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33778B151BBC6E0D00C42267 /* TutorialViewController.m in Sources */,
+				330A51021BFBACB900BD5BB6 /* WebViewController.m in Sources */,
+				3D8DD6901AC5D10C00D76E06 /* OurdrumHarry.xcdatamodeld in Sources */,
+				3D8DD68D1AC5D10C00D76E06 /* AppDelegate.m in Sources */,
+				3D26B7E41AD4388E00917E48 /* CameraViewController.m in Sources */,
+				33EED1D31BAA0EC700ABD038 /* SettingsViewController.m in Sources */,
+				3D8DD68A1AC5D10C00D76E06 /* main.m in Sources */,
+				33E8C3401B9CA4A300EC05EA /* CategoryTableViewCell.m in Sources */,
+				8471E0271B9712E200B462B4 /* LoginViewController.m in Sources */,
+				8471E02D1B971A9A00B462B4 /* Constants.m in Sources */,
+				33EC63BF1B9B7DBF0000FDB7 /* SelectCategoryViewController.m in Sources */,
+				33E772421BB341AB0041EA44 /* MBProgressHUD.m in Sources */,
+				3318E9571BA58FE6001A91D0 /* VideoDetailsEntryViewController.m in Sources */,
+				33EED1CF1BA9FDC700ABD038 /* SignUpViewController.m in Sources */,
+				8471E0321B97235800B462B4 /* RootNavigationControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8DD69C1AC5D10C00D76E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8DD6A71AC5D10C00D76E06 /* OurdrumHarryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8DD6A21AC5D10C00D76E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8DD6831AC5D10C00D76E06 /* OurdrumHarry */;
+			targetProxy = 3D8DD6A11AC5D10C00D76E06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D8DD6941AC5D10C00D76E06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8DD6951AC5D10C00D76E06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D8DD6991AC5D10C00D76E06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8DD69A1AC5D10C00D76E06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8DD6A81AC5D10C00D76E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christopher Tabora (JYE5F5UP7Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Christopher Tabora (JYE5F5UP7Q)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D8DD6A91AC5D10C00D76E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Christopher Tabora (6RR2P3M2MG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Christopher Tabora (6RR2P3M2MG)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D8DD6AB1AC5D10C00D76E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81F60696E811961E1E6BB0B /* Pods-OurdrumHarry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christopher Tabora (JYE5F5UP7Q)";
+				INFOPLIST_FILE = OurdrumHarry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d31c3e05-c973-4cc6-b9b4-c0ee6e0dbca8";
+			};
+			name = Debug;
+		};
+		3D8DD6AC1AC5D10C00D76E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB1EBD8431DA333C8181FAE /* Pods-OurdrumHarry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Christopher Tabora (6RR2P3M2MG)";
+				INFOPLIST_FILE = OurdrumHarry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9da954b3-d2fa-4d74-9188-7ed32d7712c1";
+			};
+			name = Release;
+		};
+		3D8DD6AE1AC5D10C00D76E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OurdrumHarryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OurdrumHarry.app/OurdrumHarry";
+			};
+			name = Debug;
+		};
+		3D8DD6AF1AC5D10C00D76E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OurdrumHarryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OurdrumHarry.app/OurdrumHarry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8DD67F1AC5D10C00D76E06 /* Build configuration list for PBXProject "OurdrumHarry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8DD6A81AC5D10C00D76E06 /* Debug */,
+				3D8DD6A91AC5D10C00D76E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8DD6AA1AC5D10C00D76E06 /* Build configuration list for PBXNativeTarget "OurdrumHarry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8DD6AB1AC5D10C00D76E06 /* Debug */,
+				3D8DD6AC1AC5D10C00D76E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8DD6AD1AC5D10C00D76E06 /* Build configuration list for PBXNativeTarget "OurdrumHarryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8DD6AE1AC5D10C00D76E06 /* Debug */,
+				3D8DD6AF1AC5D10C00D76E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D8DD68E1AC5D10C00D76E06 /* OurdrumHarry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D8DD68F1AC5D10C00D76E06 /* OurdrumHarry.xcdatamodel */,
+			);
+			currentVersion = 3D8DD68F1AC5D10C00D76E06 /* OurdrumHarry.xcdatamodel */;
+			path = OurdrumHarry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D8DD67C1AC5D10C00D76E06 /* Project object */;
+}
